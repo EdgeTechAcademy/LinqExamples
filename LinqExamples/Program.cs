@@ -153,7 +153,7 @@ namespace LinqExamples
             musicians.ForEach(m => Console.WriteLine(m));
 
             //  order names by length and find the shortest name
-            //  version 1 - create a sorted stream based on length of last name
+            //  version 1 - create a sorted stream based on length of last namewith the 
             var orderedNames = passengers.OrderBy(p => p.LastName.Length);
 
             //  order names by length and find the longest name
@@ -161,7 +161,7 @@ namespace LinqExamples
             var longestName = orderedNames.Last();
 
             Console.WriteLine($"The shortest last name is: {shortestName.LastName}");
-            Console.WriteLine($"The lonest   last name is: {longestName.LastName}");
+            Console.WriteLine($"The longest  last name is: {longestName.LastName}");
 
             List<Passenger> pax;
             HashSet<String> roles;
