@@ -8,7 +8,7 @@ namespace LinqExamples
     {
         static void Main(string[] args)
         {
-            LINQExamples();
+            //  LINQExamples();     //  look at these after you have checked out the Titanic examples
             TitanicExamples();
         }
 
